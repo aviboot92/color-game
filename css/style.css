@@ -1,3 +1,10 @@
 body{
     background: #223323
 }
+.square{
+    padding-bottom: 18% !important;
+    background-color: blue;
+    overflow: hidden;
+    height: 300px;
+    overflow: hidden;
+}
