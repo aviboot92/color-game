@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,24 +10,32 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body class="text-white">
-    <h1 class="text-center display-2">The Great COLOR GAME</h1>
-    <h2 class="text-center text-success">Please Guess: <span id="colorDisplay" class="text-uppercase">RGB</span></h2>
+    <div class="bg-info my-0 jumboton">
+        <h1 class="my-0 text-center display-2">The Great COLOR GAME</h1>
+    </div>
+    <h2 class="my-0 text-center text-success bg-warning">Please Guess: <span id="colorDisplay" class="text-uppercase">RGB</span></h2>
     <nav class="navbar bg-dark navbar-dark">
-        <li class="nav-link">HI</li>
-        <li class="nav-link">HI</li>
-        <li class="nav-link">HI</li>
+        <div class="container">
+                <button id="reset" class="btn btn-outline-primary">New Game</button>
+                <div id="instantDisplay">HI</div>
+                <div class="level d-flex">
+                        <button id="hard" class="btn btn-outline-danger">Hard</button>
+                        <button id="easy" class="btn btn-outline-success">Easy</button>
+                </div>
+        </div>
     </nav>
     <div id="container" class="container">
         <div class="row my-4 justify-content-between">
-                <div class="col-md-3 mx-xs-3 mx-md-auto rounded my-1 square"></div>
-                <div class="col-md-3 mx-xs-3 mx-md-auto rounded my-1 square"></div>
-                <div class="col-md-3 mx-xs-3 mx-md-auto rounded my-1 square"></div>
+            <div class="col-md-3 mx-xs-3 mx-md-auto rounded my-1 square"></div>
+            <div class="col-md-3 mx-xs-3 mx-md-auto rounded my-1 square"></div>
+            <div class="col-md-3 mx-xs-3 mx-md-auto rounded my-1 square"></div>
         </div>
         <div class="row my-4 justify-content-between">
-                <div class="col-md-3 mx-xs-3 mx-md-auto rounded my-1 square"></div>
-                <div class="col-md-3 mx-xs-3 mx-md-auto rounded my-1 square"></div>
-                <div class="col-md-3 mx-xs-3 mx-md-auto rounded my-1 square"></div>
+            <div class="col-md-3 mx-xs-3 mx-md-auto rounded my-1 square"></div>
+            <div class="col-md-3 mx-xs-3 mx-md-auto rounded my-1 square"></div>
+            <div class="col-md-3 mx-xs-3 mx-md-auto rounded my-1 square"></div>
         </div>
     </div>
 
@@ -44,4 +53,5 @@
     </script>
     <script src="./js/app.js"></script>
 </body>
+
 </html>
